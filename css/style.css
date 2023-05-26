@@ -1,0 +1,355 @@
+
+
+/* index page*/
+
+.navbar{
+    background: rgba(0, 0, 0, 0.671);
+    
+}
+.navbar-brand{
+    color:orangered;
+    font-weight: 700;
+    font-family: 'Times New Roman';
+    
+}
+.navbar button{
+    color:orangered;
+    background-color:white;
+}
+
+.navbar .navbar-nav a{
+    color: orangered;
+    font-weight: 400;
+    
+}
+.navbar .navbar-nav a:hover{
+    text-decoration: underline;
+    color: rgb(255, 11, 3);
+    font-size: small;
+}
+.carousel-caption .link:hover{
+    background: orangered;
+    color: white;
+
+}
+
+/*.......*/
+
+
+.detailbox{
+    margin-top: 5px;
+    background: #f5f1f1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.detailbox h4,h1,h6{
+    padding-left: 20px;
+    color: rgb(16, 31, 1);
+    font-weight: 700;
+    text-align:start;
+    font-family: 'Times New Roman';
+    line-height: 1.6;
+    
+}
+.detailbox #heading{
+    padding-top: 30px;
+}
+.detailbox .detail h1{
+    color: orangered;
+}
+
+/*<<<<*/
+#wrappers{
+    position: flex;
+    justify-content: space-between;
+    
+}
+.wrapper{
+    height:400px;
+    width: 440px;
+    background: white;
+    background-size: 100%;
+    padding-right: 25px;
+    box-shadow: 0 0 40px rgba(255, 255, 255, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    
+    background: #353535;
+}
+
+
+.wrapper .form-box{
+    width: 100%;
+    padding: 40px;
+}
+
+.form-box h2{
+    font-size: 30px;
+    color: aquamarine;
+    font-family:'Times New Roman', serif;
+    font-weight: 800;
+    text-shadow: 2px 2px 15px #389138 ;
+    text-align: center;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    border-bottom: 3px solid rgb(77, 76, 76);
+    margin: 20px 0;
+
+}
+.input-box label{
+    position: absolute;
+    top:0%;
+    left:5px;
+    color: antiquewhite;
+    transform: translateY(-50%);
+    font-size: 17px;
+    font-weight: 500;
+    pointer-events: none;
+}
+
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    color: azure;
+    font-size: large;
+    font-weight: 500;
+    background: transparent;
+    border: none;
+    outline: none;
+    top: 50%;
+    padding-right:35px
+}
+
+.wrapper .btn{
+    height: 45px;
+    width: 45%;
+    color:white;
+    font-size: 23px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    background-color: rgb(6, 71, 252);
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    transition: ease-out;
+}
+.wrapper .btn:hover{
+    color:white;
+    font-size: 23px;
+    background: #389138;
+    border:2px solid yellow;
+    
+}
+
+
+
+/*.......*/
+.bg{
+    padding-top: 5px;
+    background: #fffffffd;
+    
+}
+.bg #det #centertitle{
+    padding-top: 25px;
+    color: orangered;
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+    font-size: 45px;
+}
+.bg #det #bx{
+    width: 300px;
+    margin: 10px 10px 10px 10px;
+    
+    background: rgba(223, 205, 205, 0.301);
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius:16px ;
+    overflow: hidden;
+    padding: 0;
+    
+    
+}
+.bg #det #bx h5,p{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    text-align: center;
+    
+
+}
+.bg #det #bx ,p{
+    font-size: large;
+}
+
+#bx img{
+    height: 300px;
+    width: 300px;
+
+}
+
+
+
+/*services*/
+
+#services .section-header h2{
+    font-weight: bolder;
+    text-transform:capitalize ;
+    color: orangered;
+}
+#services .section-header p{
+    font-size: larger;
+    font-weight: 500;
+    margin: 40px 5px 30px 5px;
+}
+#services{
+    text-align: center;
+    padding: 60px 0 60px 0;
+
+}
+.services .section-header p {
+    margin:0;
+    padding: 0;
+}
+.single-service {
+    position: relative;
+    text-align: center;
+    color: #353535;
+    font-weight: 400;
+    margin:30px 0 0;
+
+}
+#services i{
+    font-size: 64px;
+    color: orangered;
+}
+.single-service h4,
+.single-service h4 a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #353535;
+    padding: 0;
+    
+}
+.single-service p {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*  tech stack */
+
+.webstack{
+    text-align: center;
+    padding-bottom: 25px;
+
+}
+.webstack h2{
+    font-weight: bolder;
+    text-transform:capitalize ;
+    color: orangered;
+}
+.webstack p{
+    font-size: larger;
+    font-weight: 500;
+    margin: 40px 5px 30px 5px;
+}
+ .techimg #techlogo img{
+    height: 70px;
+    width:auto;
+    margin-bottom: 20px;
+}
+.webstack .techimg{
+   
+    border-radius: 16px;
+}
+
+
+/*our vision*/
+
+.vision{
+    padding-top: 25px;
+    text-align: center;
+}
+.vision h2{
+    font-weight: bolder;
+    text-transform:capitalize ;
+    color: orangered;
+}
+.vision p{
+    font-size: larger;
+    margin: 40px 5px 30px 5px;
+    font-weight: 500;
+    
+}
+
+
+/*ourclients*/
+
+
+.ourclients .clnt h1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: 1000;
+    font-family: 'Times New Roman';
+    text-transform:capitalize ;
+    text-align: center;   
+    color: orangered;
+}
+
+.ourclients .clientlogo img{
+    height: 60px;
+    width: 150px;
+    margin: 10px 10px 10px 10px;
+}
+.ourclients .happyclient{
+    background: rgba(0, 0, 0, 0.521);
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+.ourclients{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.ourclients .happyclient h3{
+    color: greenyellow;
+    font-weight: bolder;
+}
+.ourclients .happyclient h3:hover{
+    color: orangered;
+}
+
+
+/*footer*/
+footer .footer-links a{
+    padding: 10px 0px 10px 0px;
+}
+.footer-body h3,h4{
+    text-align: center;
+}
+.foot-body h6,h5{
+    text-align: center;
+}
+.foot-body h6{
+    color: white;
+}
+.foot-body h6:hover,h5:hover{
+    color: orangered;
+}
+
+.Copyright{
+
+    font-weight: 600;
+    color: rgb(202, 202, 202);
+}
